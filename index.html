@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PizzaPronto</title>
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body onload="renderPizzaContainer()">
+
+    <div class="header">
+        <div class="header-container">
+            <div class="header-child-left">
+                <img class="pizza-icon" src="./img/pizza-icon.png">
+                <p><b>PizzaPronto.de</b></p>
+            </div>
+            <div class="header-child-middle">
+                <p><b>Traumstraße 12, 12345 Fantasiestadt</b></p>
+            </div>
+            <div class="header-child-right">
+                <img class="flag-icon" src="./img/germany.png">
+                <img class="menu-icon" src="./img/menubar.png">
+            </div>
+        </div>
+    </div>
+
+    <div class="main-page">
+        <div class="content">
+            <div class="pizza-image-container">
+                <img class="pizza-image" src="./img/pizza3.jpg">
+            </div>
+            <div class="logo-circle">
+                <img class="alfredo-icon" src="./img/alfredo.png">
+            </div>
+            
+
+            <div class="restaurant-container">
+                <div>
+                    <h2>Restaurante Alfredo</h2>
+                    <div class="review-container">
+                        <img class="star-icon" src="./img/star-orange.png">
+                        <img class="star-icon" src="./img/star-orange.png">
+                        <img class="star-icon" src="./img/star-orange.png">
+                        <img class="star-icon" src="./img/star-orange.png">
+                        <img class="star-icon" src="./img/star.png">
+                        <a class="reviews" href="#">(1,5k Bewertungen)</a>
+                    </div>
+                    <div class="delivery-info">
+                        <div class="delivery-info-child">
+                            <img class="delivery-icons" src="./img/clock.png">
+                            <p class="delivery-text">Ab 17:30</p>
+                        </div>
+                        <div class="delivery-info-child">
+                            <img class="delivery-icons" src="./img/bicycle.png">
+                            <p class="delivery-text">2,00 €</p>
+                        </div>
+                        <div class="delivery-info-child">
+                            <img class="delivery-icons" src="./img/basket-grey.png">
+                            <p class="delivery-text">Min. 10,00 €</p>
+                        </div>
+                    </div>
+                    <p class="text-newsletter">
+                        Bei diesem Restaurant kannst du Stempel sammeln. Stelle beim Bestellabschluss bitte sicher,
+                        dass du dich für unseren Newsletter angemeldet hast, um deine Stempel per E-Mail zu erhalten.
+                    </p>
+                    <p class="text-restaurant">
+                        Genießen Sie unsere italienischen Pizzen, Pasta und Vieles mehr! Wir freuen uns auf Ihre
+                        Bestellung!
+                    </p>
+
+                </div>
+                <div class="info-like-container">
+                    <div class="info">
+                        <img class="il-icons" src="./img/info.png">
+                    </div>
+                    <div class="like">
+                        <img class="il-icons" src="./img/heart.png">
+                    </div>
+                </div>
+            </div>
+            <div class="favorite-menu">
+                <h3>Beliebte Gerichte</h3>
+            </div>
+            <div id="pizza-container">
+            </div>
+        </div>
+        <div class="sidebar">
+            <div class="basket-headline">
+                <b>Warenkorb</b>
+            </div>
+            <div class="basket-description" id="basket-description">
+                <img class="basket-icon" src="./img/basket-black.png">
+                <b>
+                    <p>Fülle deinen Warenkorb</p>
+                </b>
+                <p class="basket-text">Füge einige leckere Gerichte aus der Speisekarte
+                    hinzu und bestelle dein Essen.</p>
+            </div>
+            <div id="js-sidebar"></div>
+            <div id="final-sum-container" class="final-sum-container"></div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footer-links">
+            <a href="#">Ein Restaurant empfehlen</a>
+            <a href="#">Ein Restaurant anmelden</a>
+            <a href="#">Jobs</a>
+            <a href="#">AGB</a>
+            <a href="#">Datenschutzerklärung</a>
+            <a href="#">Impressum</a>
+            <a href="#">Verwendung von Cookies</a>
+            <a href="#">Bug Bounty</a>
+            <a href="#">Ethik-Hotline</a>
+        </div>
+        <div>&#169 2022 PizzaPronto.de</div>
+    </div>
+
+</body>
+
+</html>
